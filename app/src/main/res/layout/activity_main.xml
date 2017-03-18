@@ -48,12 +48,25 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">>
+        <Button
+            android:text="커스텀뷰"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="202dp" />
+    </RelativeLayout>
     <Button
-        android:text="Button"
+        android:text="리스트뷰"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:layout_gravity="center"/>
+
 
 </android.support.design.widget.CoordinatorLayout>
 

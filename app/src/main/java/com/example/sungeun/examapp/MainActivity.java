@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.sungeun.examapp.exam_customview.CustomViewActivity;
 import com.example.sungeun.examapp.exam_listview.ListViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -71,6 +72,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn2 = (Button) findViewById(R.id.button2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CustomViewActivity.class);
                 startActivity(intent);
             }
         });

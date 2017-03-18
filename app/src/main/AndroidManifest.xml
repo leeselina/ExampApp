@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".exam_listview.ListViewActivity"></activity>
+        <activity android:name=".exam_listview.ListViewActivity" />
+        <activity android:name=".exam_customview.CustomViewActivity"></activity>
     </application>
 
 </manifest>
